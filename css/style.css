@@ -1,0 +1,95 @@
+body{
+	font-family: 'Catamaran';
+}
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-text-white: #ffffff;
+}
+
+header{
+	color: var(--color-text-white);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+#intro {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#intro h1{
+	color: var(--color-negro);
+	font-weight: lighter;
+}
+
+#intro p{
+	color: var(--color-footer);
+	font-weight: lighter;
+}
+
+#clients {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+#services {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#services img {
+	width: 50%;
+	text-align: center;
+}
+
+#services h1{
+	color: var(--color-negro);
+	font-weight: lighter;
+}
+
+#services p{
+	color: var(--color-footer);
+	font-weight: lighter;
+}
+
+#cta {
+	background-image: url('../img/home-grid-banner.jpg');  
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px
+}
+
+.banner h1 {
+	color: var(--color-text-white);
+	font-weight: bold;
+	font-size: 70px;
+}
+
+.banner p {
+	color: var(--color-text-white);
+	font-size: 20px;
+}
+
+.titulobanner {
+	font-size: 120px;
+	font-weight: bolder;
+}
+
+.subtitulobanner {
+	font-size: 25px;
+}
+
+.divider {
+	padding-top: 120px;
+}
